@@ -23,7 +23,7 @@ export default function Hero() {
         <CustomButtonGroup>
           <NextLink href="/contact" passHref>
             <Button onClick={() => setIsModalOpened(false)}>
-              İletişim <span>&rarr;</span>
+              İLETİŞİM <span>&rarr;</span>
             </Button>
           </NextLink>
           <NextLink href="cv-new.pdf" passHref>
