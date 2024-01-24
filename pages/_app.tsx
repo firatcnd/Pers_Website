@@ -22,8 +22,8 @@ import { NavItems } from 'types';
 /*title: 'Projelerim', href: '/pricing'*/
 const navItems: NavItems = [
   { title: 'Ana Sayfa', href: '/' },
-  { title: 'İletişim', href: '/contact' },
-  { title: 'Bana Ulaş', href: '/sign-up', outlined: true },
+  { title: 'İLETİŞİM', href: '/contact' },
+  { title: 'Bana UlaŞ', href: '/sign-up', outlined: true },
 ];
 
 const TinaCMS = dynamic(() => import('tinacms'), { ssr: false });
