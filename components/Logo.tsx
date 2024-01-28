@@ -1,10 +1,14 @@
 import Image from 'next/image';
-
+import { useState } from 'react';
 export default function Logo({ ...rest }) {
+
+    const [ logoSrc, setLogoSrc] = useState("/fcd_black.gif")
+
   return (
-    <Image src='/fcd_logo_new.png' id={"gif"} alt='' width={80} height={"40%"}/>
+    <Image src={logoSrc} id={"gif"} alt='' width={80} height={"80%"}/>
   );
 }
+
 
 
 
