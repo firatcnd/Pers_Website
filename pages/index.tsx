@@ -23,7 +23,7 @@ export default function Homepage() {
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="https://rive.app/community/6273-12187-a-moon/embed" title="Eğitim ve Staj Deneyimi" overTitle="Staj Sürecİm">
+          <BasicSection imageUrl="https://rive.app/community/5280-10531-hard-at-work/embed" title="Eğitim ve Staj Deneyimi" overTitle="Staj Sürecİm">
             <p>
               Ataşehir MYO'dan 2022 yılında Bilgisayar Programcılığı önlisans derecesi ile mezun oldum. Mezuniyetimin ardından IQ Money firmasında stajyer olarak işe başladım ve 1 yıl boyunca burada çalıştım. Staj sürecimde,
               Frontend geliştirme konusunda temel becerilerimi geliştirdim ve{' '}
