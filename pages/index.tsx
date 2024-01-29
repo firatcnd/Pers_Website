@@ -7,6 +7,7 @@ import Cta from 'views/HomePage/Cta';
 import Features from 'views/HomePage/Features';
 import Hero from 'views/HomePage/Hero';
 import Partners from 'views/HomePage/Partners';
+import Works from '../components/Works';
 
 
 export default function Homepage() {
@@ -43,13 +44,17 @@ export default function Homepage() {
               <li>Professional feature 3</li>
             </ul>*/}
           </BasicSection>
+
+
         </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>
+
           <Cta />
           {/*<FeaturesGallery />*/}
           <Features />
           {/*<Testimonials />*/}
           {/*<ScrollableBlogPosts posts={posts} />*/}
+          <Works />
         </DarkerBackgroundContainer>
       </HomepageWrapper>
     </>
