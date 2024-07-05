@@ -54,7 +54,7 @@ export default function Homepage() {
           <Features />
           {/*<Testimonials />*/}
           {/*<ScrollableBlogPosts posts={posts} />*/}
-          <Works />
+          {/*<Works />*/}
         </DarkerBackgroundContainer>
       </HomepageWrapper>
     </>
