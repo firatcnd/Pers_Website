@@ -22,8 +22,8 @@ import { NavItems } from 'types';
 /*title: 'Projelerim', href: '/pricing'*/
 const navItems: NavItems = [
   { title: 'Ana Sayfa', href: '/' },
-  { title: 'İletişim', href: '/contact' },
-  { title: 'Bana Ulaş', href: '/sign-up', outlined: true },
+  { title: 'İLETİŞİM', href: '/contact' },
+  { title: 'Bana UlaŞ', href: '/sign-up', outlined: true },
 ];
 
 const TinaCMS = dynamic(() => import('tinacms'), { ssr: false });
@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="icon" type="image/png" href="/fcd.gif" />
         {/* <link rel="alternate" type="application/rss+xml" href={EnvVars.URL + 'rss'} title="RSS 2.0" /> */}
         {/* <script
           dangerouslySetInnerHTML={{

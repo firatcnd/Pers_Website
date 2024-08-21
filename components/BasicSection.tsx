@@ -16,7 +16,7 @@ export default function BasicSection({ imageUrl, title, overTitle, reversed, chi
   return (
     <BasicSectionWrapper reversed={reversed}>
       <ImageContainer>
-          <iframe title={"Iframe"} style={{border: 'none', borderRadius: '25px', boxShadow:'0px 0px 38px -1px black'}} width="500" height="500" src={imageUrl} allowFullScreen></iframe>
+          <iframe title={"Iframe"} style={{border: 'none', borderRadius: '25px'}} width="500" height="500" src={imageUrl} allowFullScreen></iframe>
       </ImageContainer>
       <ContentContainer>
         <CustomOverTitle>{overTitle}</CustomOverTitle>
