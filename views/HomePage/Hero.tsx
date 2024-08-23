@@ -26,7 +26,7 @@ export default function Hero() {
               İLETİŞİM <span>&rarr;</span>
             </Button>
           </NextLink>
-          <NextLink href="FCD_CV_LAST.pdf" passHref>
+          <NextLink href="FCD_CV.pdf" passHref>
             <Button transparent>
               Cv Görüntüle <span>&rarr;</span>
             </Button>
